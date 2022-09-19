@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+  <!--top row-->
+  <div class="row">
+
+    <div class="col-5"><h4 class="text-primary text-center">Dungeons to Fungeons  v1.0</h4></div>
+    <div class="col-3">
+        <h4 class="text-danger">Character Sheet</h4>
+    </div>
+   
+    
+    <div class="col-4 text-center"><p class="font-monospace text-nowrap">©copyright Eric Polley 2022</p></div>
+  </div>
+
+ <!--row name-->
+      <div class="row">
+        <div class="col-6"><h4>Name:</h4></div>
+        <div class="col-3"><h4>LV:</h4></div>
+        <div class="col-3"><h4>XP:</h4></div>
+      </div>
+
+    
+
+     <!--row 3-->
+      <div class="row  g-3">
+        <div class="col-3 bg-info bg-opacity-25">
+          <h6>Age:</h6>
+            <input type="checkbox" name="Age1" id="age1" />
+            Teen
+            <strong>+1dex</strong>
+            <br />
+
+            <input type="checkbox" name="Age1" id="age1" />
+            Adult
+            <strong>+1str</strong>
+          <br />
+            <input type="checkbox" name="Age1" id="age1" />
+            Middle
+          <strong>+1int</strong>
+          <br />
+            <input type="checkbox" name="Age1" id="age1" />
+            Old
+          <strong>+2int -1str</strong>
+        </div>
+  
+        <div class="col-3 bg-warning bg-opacity-25">
+          <h6>Body Build:</h6>
+          <input type="checkbox" name="body" id="body" />
+          Avrg <strong>+1dex +1str</strong>
+          <br />
+
+              <input type="checkbox" name="body" id="body" />
+              Feminine <strong>+2dex</strong>
+              <br />
+            
+              <input type="checkbox" name="body" id="body"  />
+              Masculine <strong>+2str</strong>
+              <br />
+           
+              <input type="checkbox" name="body" id="body" />
+              Frail <strong>+2int</strong>
+        </div>
+
+        <div class="col-2 bg-info bg-opacity-10">
+            <h6>HP</h6>
+            <h5 class="opacity-25 text-center">
+                5
+            </h5>
+            <hr>
+            <h5 class="opacity-25 text-center">
+                5
+            </h5>
+            <h6 class="text-center text-danger">+STR +LV </h6>
+
+            
+        </div>
+        <div class="col-2 bg-warning bg-opacity-10">
+            <h6>MANA</h6>
+            <h5 class="opacity-25 text-center">
+                5
+            </h5>
+            <hr>
+            <h5 class="opacity-25 text-center">
+                5
+            </h5>
+            <h6 class="text-center text-danger">+INT +LV </h6>
+        </div>
+
+        <div class="col-1 bg-success bg-opacity-10">
+            <h6>MOV</h6>
+            <br />
+            <h4 class="opacity-25 text-center">
+                3
+            </h4>
+            
+            <br />
+            <h6 class="text-danger">+DEX</h6>
+      </div>
+      <div class="col-1 bg-danger bg-opacity-10">
+        <h6>DF</h6>
+        <br />
+        <h4 class="opacity-25 text-center">
+            0
+        </h4>
+        
+        <br />
+        <h6 class="text-danger">+STR</h6>
+  </div>
+
+
+
+<!--new row-->
+
+
+  <div class="row">
+    <div class="col-3 bg-warning bg-opacity-25">
+      <h6>Race:</h6>
+      
+        <input type="checkbox" name="race" id="race" />
+        Human
+        <strong>+1int</strong>
+        <br />
+
+        <input type="checkbox" name="race" id="race" />
+        Dwarf
+        <strong>+1str</strong>
+        <br />
+        <input type="checkbox" name="race" id="race" />
+        Elf
+     
+
+      <strong>+1dex</strong>
+    </div>
+
+<div class="col-3 bg-info bg-opacity-25">
+    <h6>Species:</h6>
+    
+      <input type="checkbox" name="species" id="species" />
+      Reptile
+      <strong>+1int</strong>
+      <br />
+
+      <input type="checkbox" name="species" id="species" />
+      K-9
+      <strong >+1str</strong>
+      <br />
+      <input type="checkbox" name="species" id="species" />
+      Feline
+   
+
+    <strong>+1dex</strong>
+  </div>
+
+
+<div class="col-2 bg-danger bg-opacity-10 text-center">
+    <h6>WP</h6>
+    
+    <h6 class="opacity-25 text-center"> Dagger 1d4 </h6>
+    <h6 class="text-center text-danger"> +STAT </h6>
+
+  </div><div class="col-1 bg-warning bg-opacity-10">
+    <h6 class="text-center">EVD</h6>
+    <h5 class="text-center opacity-25">0<h5>
+        <h6 class="text-center text-danger">+DEX</h6>
+        
+  </div>
+    <div class="col-1 bg-light bg-opacity-25">
+      <h6 class="text-center">STR</h6>
+      <h5 class="text-center opacity-25 text-decoration-underline"> _____ </h5>
+      <h5 class="text-center opacity-25">-1<h5>
+    </div>
+    <div class="col-1 bg-secondary bg-opacity-10">
+        <h6 class="text-center">DEX</h6>
+        <h5 class="text-center opacity-25 text-decoration-underline"> _____ </h5>
+      <h5 class="text-center opacity-25">-1<h5>
+      </div>
+      <div class="col-1 bg-light">
+        <h6 class="text-center">INT</h6>
+        
+        <h5 class="text-center opacity-25 text-decoration-underline"> _____ </h5>
+      <h5 class="text-center opacity-25">-1<h5>
+      </div>
+
+
+    </div>
+
+<!--end of row 2-->
+
+<!--start of row 3-->
+<div class="row">
+    <div class="bg-dark bg-opacity-75 col-4 d-flex flex-column align-items-center">
+        <h6 class="text-center text-white">Character Image</h6>
+        <div class="row bg-white w-100">
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+        </div>
+     </div>
+    <div class="col-2 bg-warning bg-opacity-10">
+        <h5 class="text-decoration-underline">Equip </h5>
+       
+            <li><span  class="opacity-25">Dagger</span></li>
+            <li><span  class="opacity-25">Tunic</span></li>
+            <li><span  class="opacity-25"></span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </div>
+    <div class="col-2 bg-warning bg-opacity-10"><h5 class="text-decoration-underline">STAT</h5>
+        
+            <li><span  class="opacity-25">1d4</span></li>
+            <li><span  class="opacity-25">0 DF</span></li>
+            <li><span  class="opacity-25"></span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        
+    </div>
+    <div class="col-4 bg-warning bg-opacity-10"><h5 class="text-decoration-underline">INFO</h5>
+     
+            <li><span  class="opacity-25">Small dagger</span></li>
+            <li><span  class="opacity-25">Large shirt</span></li>
+            <li><span  class="opacity-25"></span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            
+        
+    </div>
+    
+</div>
+
+
+<!--end of row 3-->
+<!--row 4-->
+
+<div class="row">
+    <div class="col-4">
+    <h5 class="text-decoration-underline">ITEMS</h5>
+    </div>
+    <div class="col sm-4"></div>
+    <div class="col sm-4 bg-light">
+        <h5 class="text-decoration-underline">NOTES</h5>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-4">
+       
+            <li><span class="opacity-25">Bow 1d6 - 5unit</span></li>
+            <li><span class="opacity-25">(10)Arrows</span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          
+            
+            
+            
+
+      
+        
+    </div>
+    <div class="col-4">
+       
+      <li><span class="opacity-25" >(10)Gold</span></li>
+            <li><span class="opacity-25">(1)Potion +1d6HP</span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          
+            
+            
+            
+
+        
+        
+    </div>
+    <div class="col-4 bg-light">
+        
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          
+            
+            
+
+         
+    </div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="" async defer></script>
+  </body>
+</html>

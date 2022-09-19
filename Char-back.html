@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-7">
+          <p class="text-success">
+            Gain One STAT per LV. Gain One skill per STAT point.
+          </p>
+        </div>
+        
+        
+        <div class="col-5"><strong>DTF V1.0</strong> copyright Eric Polley 2022</div>
+      </div>
+
+      <!--row skills str-->
+      <div class="row">
+        <div class="col-3"><h5>STR SKILLS</h5></div>
+        <div class="col-8 text-danger">
+          STATs added by skill do not Gain additional skills
+        </div>
+      </div>
+      <div class="row">
+        <!--col to the left-->
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Thrust <br />
+          <input type="checkbox" /> Brute <br />
+          <input type="checkbox" /> Duel Wield <br />
+          <input type="checkbox" /> Intimidate <br />
+          <input type="checkbox" /> Beef-up <br />
+          <input type="checkbox" /> Wide Swing <br />
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>Roll-2STR 1d6+WPN</div>
+          <div>+1 STR to STAT</div>
+          <div>-1STR Attack with two weapons</div>
+          <div>+2STR Roll while Intimidating</div>
+          <div>+1 DF to STAT</div>
+          <div>Roll to ATT all within reach</div>
+        </div>
+
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Slash<br />
+          <input type="checkbox" /> Smash <br />
+          <input type="checkbox" /> 1 Eye Open <br />
+          <input type="checkbox" /><span class="text-success">
+            Companion:<br />
+            > <input type="checkbox" /> Donkey <br />
+            > <input type="checkbox" /> Goat <br
+          /></span>
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>DMG: WPN + 2</div>
+          <div>Roll-4STR DMG: 2d6+WPN</div>
+          <div>+5INT While sleeping</div>
+          <span class="text-success">
+          <div>Choose one companion:</div>
+          <div>HP.6 DEX:1 EV:1 WP:1d4</div>
+          <div>HP.8 INT:1 EV:0 WP:1d4</div>
+        </div></span>
+      </div>
+      <!--end of STR row-->
+
+      <!--row skills DEX-->
+      <div class="row">
+        <div class="col-3"><h5>DEX SKILLS</h5></div>
+        <div class="col-8 text-danger">
+          Skill description are at will of the Game Master
+        </div>
+      </div>
+      <div class="row">
+        <!--col to the left-->
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Bow User <br />
+          <input type="checkbox" /> DoubleShot <br />
+          <input type="checkbox" /> Acrobat <br />
+          <input type="checkbox" /> Quick feet <br />
+          <input type="checkbox" /> EscapeArtist<br />
+          <input type="checkbox" /> Deflection <br />
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>+1INT while holding a bow</div>
+          <div>Shoot 2Arrows/1Target -Roll 2ce</div>
+          <div>+2DEX to STAT during acrobatics</div>
+          <div>+1 EV to STAT</div>
+          <div>+2DEX to STAT while escaping</div>
+          <div>+1 EV to STAT</div>
+        </div>
+
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Bind.Wound <br />
+          <input type="checkbox" /> Thievery <br />
+          <input type="checkbox" /><span class="text-success">
+            Companion:<br />
+            > <input type="checkbox" /> Cat <br />
+            > <input type="checkbox" /> Crow <br />
+            > <input type="checkbox" /> Ferret <br
+          /></span>
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>+1d6-1HP wounded creature</div>
+          <div>+2DEX thieving or picking locks</div>
+          <span class="text-success">
+            <div>Choose one companion:</div>
+            <div>HP.5 DEX:1 EV:1 WP:1d6</div>
+            <div>HP.1 INT:1 EV:0 WP:1d4</div>
+            <div>HP.3 DEX:2 EV:0 WP:1d4</div>
+          </span>
+        </div>
+      </div>
+      <!--end of DEX row-->
+
+      <!--row skills int-->
+      <div class="row">
+        <div class="col-3"><h5>INT Spells</h5></div>
+        <div class="col-8 text-primary">
+          Cast one spell per Mana, Regenerate Mana upon REST
+        </div>
+      </div>
+
+      <div class="row">
+        <!--col to the left-->
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Hand.of.Fire <br />
+          <input type="checkbox" /> Magic.Bullet <br />
+          <input type="checkbox" /> Earth.Wall <br />
+          <input type="checkbox" /> Ice Blast <br />
+          <input type="checkbox" /> Magic.Cloak <br />
+          <input type="checkbox" /> FireBall <br />
+          <input type="checkbox" /> Holy Flash <br />
+          <input type="checkbox" /> Float <br />
+          <input type="checkbox" /> Invisibility <br />
+          <input type="checkbox" />InfectWound <br />
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>Ignite one handful.of.flame 1d6</div>
+          <div>An electrical bullet by finger 1d6</div>
+          <div>call a 1x3Unit 10ft wall of earth</div>
+          <div>blast 1x3Unit of ice by hand 1d6</div>
+          <div>Magic cloak +1d6DEX/5rounds</div>
+          <div>Hurl a ball of fire 2x2unit 1d10</div>
+          <div>Flash of light 2d6+INT to evil</div>
+          <div>Make a 10lb> Noun float</div>
+          <div>until Attack, DMG, or 5round</div>
+          <div>2d6 to Wounded creature</div>
+        </div>
+
+        <div class="col-2 bg-light">
+          <input type="checkbox" /> Hand Heal<br />
+          <span class="text-success">
+          <input type="checkbox" /> Companion: <br />
+         > <input type="checkbox" />Fire Fairy <br />
+         > <input type="checkbox" />Ice Fairy <br />
+         > <input type="checkbox" />Light-Fairy <br />
+        </span>
+          <span class="text-primary">
+            Summon: <br />
+            > <input type="checkbox" /> Rock-man <br />
+            > <input type="checkbox" /> Goblin <br />
+            > <input type="checkbox" /> Raven <br />
+            > <input type="checkbox" /> Wolf <br />
+          </span>
+        </div>
+        <div class="col-4 bg-dark bg-opacity-10">
+          <div>+1d6 HP to wounded creature</div>
+          <span class="text-success">
+            <div>Choose one companion:</div>
+            <div>HP2 INT:1 EV:1 M:3 -Fireball</div>
+            <div>HP4 INT:1 EV:1 M:5 -Ice Blast </div>
+            <div>HP4 INT:1 EV:1 M:5 -MagicBullet</div>
+          </span>
+          <span class="text-primary">
+            <div>Summon until rest [3MANA]</div>
+            <div>HP.8 EV:-1 WP:1d6</div>
+            <div>HP.3 STR:1 EV:0 WP:1d6</div>
+            <div>HP.1 INT:1 EV:2 WP:1d4</div>
+            <div>HP.4 DEX:1 EV:0 WP:1d6</div>
+          </span>
+        </div>
+      </div>
+      <br />
+      <!--end of int row-->
+      <div class="row">
+        <div class="col bg-warning bg-opacity-10">
+          <h5>Guide:</h5>
+          
+  <p>
+          
+            <strong>Inquire:</strong> Ask the Fungeon Master an in-game question. The Master may ask you to roll 1d10(+STAT's)
+            <br>
+            <strong>Rest:</strong> Rest only when clear of danger. Rest restores 'Out Cold' HP, & Mana. Gain adventure XP.
+            <br>
+            <strong>Order of Action:</strong> At first sign of combat, all party roll 1d10+DEX. Highest roll will Act First.
+            <br>
+            <strong>10 to Succeed:</strong> 
+            Roll 1d10+STAT. Succeed on 10, Almost succeed on an 8 or 9.  <br>
+            <strong>Attack:</strong> Roll 1d10(+STR for Close Combat)(+DEX for Ranged WPN)(+INT for Magic) -Enemy EV
+            <br>
+            <strong>Ranged Att:</strong> Roll 1d10+DEX for ranged WP -1DEX per unit out of range 
+            <br> 
+            <strong>Magic:</strong> 1d10+INT -1INT per unit out of range 
+            <br>
+            <strong>Damage:</strong> Close-Combat: WPN+STR , Ranged: WPN+DEX , Magic: Spell+INT (if applicable) , - Enemy DF
+            <br>
+            <strong>Taking Damage:</strong> -EV from enemies 1d10 roll to hit. -DF from enemies Attack Roll.
+            <br>
+            <strong>LV Up:</strong> Gain One level for every 1,000XP. Gain one Stat Point per Level (STR, DEX, or INT)
+            <br>
+            <strong>Out Cold:</strong> If health falls below 1, Lights out, you are asleep until next healed above 0hp or rest 
+            <br>
+            <strong>Death:</strong>  If health falls below -10HP, life has been extinguished.
+            <br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="" async defer></script>
+  </body>
+</html>
