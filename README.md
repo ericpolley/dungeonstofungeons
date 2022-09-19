@@ -12,3 +12,5 @@ http://ericpolley.com
 
 
 Created is VS Code. Download zip file, extract. Open the folder in VS Code, open the index.html. right click and open live server. 
+
+![image](https://user-images.githubusercontent.com/109182529/191042353-383a032f-e023-4364-9ace-5e6cdeb326df.png)
